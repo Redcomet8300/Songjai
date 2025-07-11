@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-wrapper {
+  width: 100%;
+  max-width: 420px;
+  padding: 2rem;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.login-title {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #555;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.login-options {
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.login-options a {
+  color: #0066cc;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #0d6efd;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.login-btn:hover {
+  background-color: #0b5ed7;
+}
+
+.social-login {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.social-login p {
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: #333;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.social {
+  flex: 1;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social:hover {
+  background-color: #eaeaea;
+}
+
+.facebook {
+  background-color: #3b5998;
+  color: white;
+  border: none;
+}
+
+.gmail {
+  background-color: #db4437;
+  color: white;
+  border: none;
+}
+
+.apple {
+  background-color: #000;
+  color: white;
+  border: none;
+}
+
+.signup-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 1.5rem;
+}
+
+.signup-link a {
+  color: #0d6efd;
+  text-decoration: none;
+  font-weight: 500;
+}
